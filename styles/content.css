@@ -1,0 +1,12 @@
+.content__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__article,
+.content__ads {
+  width: 48%;
+  min-height: 300px;
+  margin: 0;
+}
+
