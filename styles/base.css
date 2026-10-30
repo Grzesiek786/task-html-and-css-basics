@@ -1,6 +1,6 @@
 * {
-  font-family: "Montserrat";
   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
 }
 
 .row,
@@ -19,10 +19,17 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1440px;
   outline-color: blue;
 }
 
 .cell {
   outline-color: orange;
+}
+
+.btn {
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
 }
