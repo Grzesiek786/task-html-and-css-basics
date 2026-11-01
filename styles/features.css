@@ -3,13 +3,6 @@
   color: white;
 }
 
-/* .features__title,
-.features__items,
-.features__items--item,
-.items--icon {
-  display: flex;
-} */
-
 .features__title {
   display: flex;
   height: 180px;
