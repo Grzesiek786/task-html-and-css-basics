@@ -23,6 +23,7 @@
   display: flex;
   justify-content: space-around;
   padding: 50px 0;
+  min-height: 700px;
 }
 
 .pricing__item {
