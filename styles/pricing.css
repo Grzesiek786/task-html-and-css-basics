@@ -44,7 +44,7 @@
 .pricing__item > p:first-of-type {
   font-size: 55px;
   font-weight: bold;
-  margin: 0;
+  margin-top: 16px;
 }
 
 .pricing__item > p:nth-of-type(2) {
@@ -60,6 +60,11 @@
   font-size: 20px;
 }
 
+.pricing__item ul li {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
 .pricing__item .btn {
   margin-top: auto;
   width: 50%;
@@ -70,4 +75,9 @@
   color: white;
   font-size: 17px;
   cursor: pointer;
+}
+
+.pricing__item--featured {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.35)  ;
+  border-radius: 20px;
 }
