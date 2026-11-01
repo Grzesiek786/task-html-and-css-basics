@@ -1,3 +1,14 @@
+.logos {
+  height: 100px;
+  padding-top: 10px;
+}
+
+figure.container {
+  display: flex;
+  justify-content: center;
+  height: 46px;
+}
+
 .content__container {
   display: flex;
   justify-content: space-between;
@@ -10,3 +21,33 @@
   margin: 0;
 }
 
+.content__article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__article > img {
+  height: 800px;
+}
+
+.content__ads {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 90px;
+}
+
+.content__ads > h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.content__ads > p {
+  font-family: "Montserrat";
+  width: 500px;
+  font-size: 26px;
+  line-height: 1.5;
+}
